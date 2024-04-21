@@ -5,10 +5,11 @@
     right: 0;
     z-index: 5;
 }
+
 .header__container {
     display: flex;
-    justify-content: space-between; 
-    gap: 30px;   
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .header__logo {
@@ -16,10 +17,22 @@
 
 
 }
+
 .header__cart {
     color: var(--dark);
 }
+
 .header__cart:hover {
     color: var(--orange);
 }
 
+
+@media (width >=620px) {
+    .header {
+        top: 40px;
+    }
+
+    .header__logo {
+        width: 164px;
+    }
+}
